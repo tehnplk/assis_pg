@@ -1,0 +1,34 @@
+
+@charset "utf-8";
+
+@font-face {
+    font-family: Anokotmai;
+    src: url('anakotmai-medium.eot');
+    src: url('anakotmai-medium.eot?#iefix') format('embedded-opentype'), url('anakotmai-medium.woff2') format('woff2'), url('anakotmai-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Anokotmaibold;
+    src: url('anakotmai-bold.eot');
+    src: url('anakotmai-bold.eot?#iefix') format('embedded-opentype'), url('anakotmai-bold.woff2') format('woff2'), url('anakotmai-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: bold
+}
+
+@font-face {
+    font-family: Anokotmailight;
+    src: url('anakotmai-light.eot');
+    src: url('anakotmai-light.eot?#iefix') format('embedded-opentype'), url('anakotmai-light.woff2') format('woff2'), url('anakotmai-light.woff') format('woff');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Anokotmaibolditalic;
+    src: url('anakotmai-medium.eot');
+    src: url('anakotmai-medium.eot?#iefix') format('embedded-opentype'), url('anakotmai-medium.woff2') format('woff2'), url('anakotmai-medium.woff') format('woff');
+    font-weight: bold;
+    font-style: italic
+}

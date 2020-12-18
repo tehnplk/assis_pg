@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="HR Promote">
+  <meta name="author" content="Phanupong Dongyen">
+
+  <meta name="theme-color" content="#ffffff">
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="../asset/webfont/anokotmai.css">
+
+  <!-- Material Design for Bootstrap CSS -->
+  <link rel="stylesheet" href="../assets/css/docs.css">
+
+  <title>ระบบหลังบ้าน Smart Assis</title>
+  <style>
+    .bmd-form-group .bmd-label-static,
+    .bmd-form-group.is-filled .bmd-label-floating,
+    .bmd-form-group .is-filled .bmd-label-floating,
+    .bmd-form-group.is-focused .bmd-label-floating,
+    .bmd-form-group .is-focused .bmd-label-floating {
+
+      font-size: 1rem;
+
+    }
+
+  </style>
+</head>
+
+<body style="font-family: 'Anokotmai', sans-serif;">
+
+  <header>
+
+      <div class="navbar navbar-dark bg-dark box-shadow" style="margin-top:'">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <img src="../assets/img/nurse.png" height="40" width="40" alt="">
+          <strong style="margin-left:10px">Smart Assis Backend</strong>
+        </a>
+
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <section class="jumbotron">
+      <div class="container">
+        <img src="../assets/img/nurse.png" alt="" style="display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 20%;">
+        <form method="post" action="check_login.php">
+
+          <fieldset class="form-group">
+            <label for="InputCID" class="bmd-label-floating" style="color: #000;">Username</label>
+            <input type="text" class="form-control" id="InputUser" name="username">
+          </fieldset>
+
+          <fieldset class="form-group">
+            <label for="InputPass" class="bmd-label-floating" style="color: #000;">Password</label>
+            <input type="password" class="form-control" id="InputPass" name="password">
+          </fieldset>
+
+          <button type="submit" class="btn btn-primary btn-raised float-right">เข้าสู่ระบบ</button>
+        </form>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="text-muted">
+    <div class="container fixed-bottom">
+
+      <p>Smart Assis &copy;2019 Smart Queue</p>
+
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../assets/js/vendor/jquery-slim.min.js"></script>
+  <script src="../assets/js/vendor/popper.min.js"></script>
+  <script src="../assets/js/docs.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('body').bootstrapMaterialDesign();
+    });
+  </script>
+</body>
+
+</html>
